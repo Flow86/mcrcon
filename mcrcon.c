@@ -663,7 +663,7 @@ int rcon_command(int rsock, char *command)
     }
 
     /* return 1 if world was saved */
-    return 1;
+    return 0;
 }
 
 int run_commands(int argc, char *argv[])
